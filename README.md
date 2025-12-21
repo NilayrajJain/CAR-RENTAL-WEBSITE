@@ -1,76 +1,16 @@
-🚗 247 CABS – Car Rental Website
+# React + Vite
 
-247 CABS is a full-stack Car Rental Web Application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js).
-The platform allows users to browse available cars, book rentals, and manage reservations with real-time availability in a smooth and user-friendly way.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-This project demonstrates modern web development practices, secure authentication, and scalable backend architecture, making it suitable for academic submission as well as real-world applications.
+Currently, two official plugins are available:
 
-🌐 Live Concept
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-A digital car rental system that works 24/7, providing users with instant access to vehicles anytime, anywhere.
+## React Compiler
 
-🛠 Tech Stack
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Frontend
+## Expanding the ESLint configuration
 
-React.js
-
-HTML5
-
-CSS3
-
-JavaScript
-
-Backend
-
-Node.js
-
-Express.js
-
-Database
-
-MongoDB
-
-Authentication & Security
-
-JWT (JSON Web Token)
-
-Tools
-
-Git
-
-GitHub
-
-✨ Features
-
-User registration and secure login
-
-Browse cars by category and availability
-
-Real-time car booking system
-
-Booking history and rental details
-
-Downloadable rental invoice
-
-Responsive design with dark mode support
-
-Secure RESTful APIs
-
-👥 Intended Users
-
-Students
-
-Working professionals
-
-Individuals looking for short-term or long-term car rentals
-
-🎯 Project Objectives
-
-To build a scalable MERN stack application
-
-To understand full-stack web development
-
-To implement authentication and database management
-
-To design a real-world car rental workflow
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
